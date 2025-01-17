@@ -4,11 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Franco Cardenas</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Franco Cardenas. Presentation page">
+    <meta name="author" content="Franco Cardenas">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131 - Cardenas</h1>
+
+    <!-- Header-->
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Franco Cardenas</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/franco-cardenas/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=spa&id=p27#p27">Scripture</a>
+                </li>
+                <li><a href="path/to/final-project-folder">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="text">
+                    <p>
+                        My name is Rubia and I go by Ruby. I was born in South Africa and live with my family in
+                        Madagascar. I am currently working as an administrative legal assistant at a law firm. My
+                        children are my world and I love spending time with them. I love to travel and I love to learn
+                        new things.
+                    </p>
+                    <h3>Toloria, Madagascar</h3>
+                    <hr />
+                    <p>
+                        Madagascar is the 4th largest island in the world and is located in the Indian Ocean. It is home
+                        to 5% of the world's plant and animal species, of which more than 80% are endemic to Madagascar.
+                        The island is best known for its lemurs, baobab trees, and vanilla.
+                    </p>
+                    <img src="flag.png" alt="Official Flag of Madagascar" />
+                    <p class="caption">Official Flag of Madagascar</p>
+                </div>
+                <div class="photo">
+                    <img src="profile.jpg" alt="Rubia's Photo" />
+                </div>
+            </div>
+        </section>
+        <section class="resources">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smashing Magazine</a></li>
+                <li><a href="#">CSS Tricks</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+                <li><a href="#">Image Placeholder</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="copyright-year"></span> Franco Cardenas, Argentina</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
 </body>
 
 </html>
