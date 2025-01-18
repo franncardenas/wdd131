@@ -62,7 +62,6 @@ nav ul li a:hover {
     color: black;
 }
 
-/* Main Content Layout */
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -75,6 +74,7 @@ main {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3)
 }
 
 .about-me h2 {
@@ -95,6 +95,9 @@ main {
     font-size: 1.2rem;
     color: #003366;
     margin: 20px 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin-left: 40px;
 }
 
 .about-me .text hr {
@@ -103,24 +106,40 @@ main {
 }
 
 .about-me .text p {
+    margin-left: 20px;
     font-size: 0.9rem;
     line-height: 1.6;
 }
 
-.about-me .text img {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-top: 10px;
+.flag-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-.about-me .text .caption {
-    font-size: 0.8rem;
+.flag-section img {
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.flag-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    flex: 1;
+}
+
+figcaption {
     text-align: center;
+    font-style: italic;
     color: #666666;
 }
 
 .about-me .photo img {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -130,6 +149,7 @@ main {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.3)
 }
 
 
