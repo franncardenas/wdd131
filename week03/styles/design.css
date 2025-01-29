@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    font-family: Roboto, helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/* Replacing the marquee with a stationary banner */
+.banner {
+    padding: 1rem;
+    background-color: #eee;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Main Heading */
+h1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Layout for Main Content */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+/* Adjusting the h2 alignment */
+h2 {
+    color: navy;
+    text-align: left;
+    grid-column: span 2;
+}
+
+/* Styling the Article Paragraphs */
+article p {
+    text-align: justify;
+}
+
+/* Callout Container */
+.callout {
+    color: #ffffff;
+    background-color: #4b165f;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: smaller;
+    text-align: left;
+}
