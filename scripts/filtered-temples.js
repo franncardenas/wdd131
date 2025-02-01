@@ -38,7 +38,7 @@ const temples = [
     {
         templeName: "Guatemala City Guatemala Temple",
         location: "Guatemala City, Guatemala",
-        dedicated: "1984, December, 14-16",
+        dedicated: "1984, December, 14",
         area: 11610,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/guatemala-city-guatemala-temple/guatemala-city-guatemala-temple-6415-main.jpg"
@@ -46,7 +46,7 @@ const temples = [
     {
         templeName: "Rome Italy Temple",
         location: "Rome, Italy",
-        dedicated: "2019, March, 10-12",
+        dedicated: "2019, March, 10",
         area: 41010,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-2642-main.jpg"
