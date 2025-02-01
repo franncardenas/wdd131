@@ -74,6 +74,22 @@ const temples = [
         area: 16000,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/winter-quarters-nebraska-temple/winter-quarters-nebraska-temple-317-main.jpg"
+    },
+    {
+        templeName: "Hamilton New Zealand Temple",
+        location: "Hamilton, New Zealand",
+        dedicated: "2022, October, 16",
+        area: 45251,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/hamilton-new-zealand-temple/hamilton-new-zealand-temple-29744-main.jpg"
+    },
+    {
+        templeName: "Laie Hawaii Temple",
+        location: "Laie, Hawaii",
+        dedicated: "2010, November, 21",
+        area: 42100,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-7370-main.jpg"
     }
 
 ];
