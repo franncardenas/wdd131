@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -26,7 +26,6 @@ h2 {
     color: #222;
 }
 
-/* Estilos para los labels y campos de entrada */
 label {
     font-weight: bold;
     display: block;
@@ -49,7 +48,7 @@ textarea {
     resize: none;
 }
 
-/* Estilos para los checkboxes y radios */
+
 .checkbox-group,
 .radio-group {
     display: flex;
@@ -68,7 +67,7 @@ textarea {
     margin-right: 10px;
 }
 
-/* Estilos del botón */
+
 button,
 input[type="submit"] {
     background: #007BFF;
@@ -87,7 +86,7 @@ input[type="submit"]:hover {
     background: #0056b3;
 }
 
-/* Estilos para la página de revisión */
+
 .review-container {
     background: #fff;
     padding: 20px;
