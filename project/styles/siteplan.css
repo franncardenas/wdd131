@@ -1,0 +1,127 @@
+/* General */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.main-bg {
+    background-image: url('../images/wheelchair.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Cuadro de contenido */
+.content-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.content-box h1,
+.content-box h2,
+.content-box p,
+.content-box button {
+    text-align: center;
+}
+
+.donate {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background: #38B000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    background: #0077B6;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.donate-btn {
+    background: #38B000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+}
+
+footer {
+    background-color: #0077B6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #0077B6;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .main-bg {
+        background-size: cover;
+        background-position: center;
+    }
+}
