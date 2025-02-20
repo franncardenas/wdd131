@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wheelchairs for All</title>
+    <title>Contact Us - Wheelchairs for All</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Nunito:wght@300;400;700&display=swap"
         rel="stylesheet">
@@ -16,10 +16,7 @@
     <header>
         <div class="logo">Wheelchairs for All</div>
         <nav>
-
-            <div class="hamburger" onclick="toggleMenu()">
-                &#9776;
-            </div>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
             <ul class="nav-links">
                 <li><a href="siteplan.html" onclick="toggleMenu()">Home</a></li>
                 <li><a href="about.html" onclick="toggleMenu()">About Us</a></li>
@@ -30,16 +27,26 @@
     </header>
 
     <main class="main-bg">
-        <section id="about" class="about">
+        <section class="contact-section">
             <div class="content-box">
-                <h1>About Us</h1>
-                <h2>Providing Free Wheelchairs for Those in Need</h2>
-                <p>Our mission is to offer the opportunity of a full and dignified life through the donation of
-                    wheelchairs, transforming lives with hope, love and solidarity.</p>
-                <button class="more">More</button>
+                <h1>Contact Us</h1>
+                <p>If you have any questions, suggestions, or want to help our cause, feel free to reach out to us.</p>
+                <form class="contact-form">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" class="donate">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; <span id="copyright-year"></span> Franco Cardenas, Argentina</p>
         <p>Last Modification: <span id="last-modified"></span></p>

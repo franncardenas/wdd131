@@ -11,3 +11,7 @@ function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
+
+document.querySelector(".more").addEventListener("click", function () {
+    window.location.href = "about.html";
+});
